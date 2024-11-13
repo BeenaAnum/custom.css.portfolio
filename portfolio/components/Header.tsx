@@ -18,7 +18,7 @@ export default function Header(): React.JSX.Element {
             </ul>
         </nav>
         <div className="button">
-            <button className="btn">Contact Me</button>
+        <a href="mailto https://beenaanum@gmail.com" target="_blank"><button className="btn">Contact Me</button></a>
         </div>
     </header>
     </div>
