@@ -255,3 +255,30 @@ h2 {
 .footer .social-media a {
   background-color: tomato;
 }
+/* Responsiveness */
+
+@media(max-width: 768px) {
+
+ header {
+      flex-direction: column;
+  }
+
+ .home , .about , .contact , .projects{
+ margin-top: 5rem;
+ }
+
+ .project {
+     margin:2rem;
+  }
+}
+
+@media(max-width: 480px) {
+
+ header {
+      padding: 6px;
+  }
+
+  .project {
+      width: 100%;
+  }
+}
